@@ -1,12 +1,26 @@
 :root {
-  --cor-de-fundo: #08a317;
+  --cor-de-fundo: #13670b;
   --cor-da-letra: #ffff;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--cor-de-fundo);
+  background-image: linear-gradient(
+    to right top,
+    #13670b,
+    #10620b,
+    #0d5d0b,
+    #0a590b,
+    #07540b,
+    #07580c,
+    #075b0c,
+    #075f0d,
+    #0b6c0e,
+    #107a0f,
+    #168710,
+    #1c9510
+  );
 }
 
 .nav {
@@ -16,15 +30,44 @@ body {
   width: 100%;
   justify-content: center;
   border-bottom: 2px black solid;
-  background-color: rgb(20, 237, 237);
+  background-image: linear-gradient(
+    to right top,
+    #13670b,
+    #10620b,
+    #0d5d0b,
+    #0a590b,
+    #07540b,
+    #07580c,
+    #075b0c,
+    #075f0d,
+    #0b6c0e,
+    #107a0f,
+    #168710,
+    #1c9510
+  );
   margin: 0;
   padding: 0;
   display: flex;
+  /*background-color: rgba(0, 255, 0, 0.07); colocar transpatente*/
 }
 
 .main-container {
-  background-color: var(--cor-de-fundo);
-  padding-top: 92px;
+  background-image: linear-gradient(
+    to right top,
+    #13670b,
+    #10620b,
+    #0d5d0b,
+    #0a590b,
+    #07540b,
+    #07580c,
+    #075b0c,
+    #075f0d,
+    #0b6c0e,
+    #107a0f,
+    #168710,
+    #1c9510
+  );
+  padding: 92px 0;
   margin: 0 5%;
 }
 
@@ -85,7 +128,21 @@ h1 {
 }
 
 .footer {
-  background-color: rgb(0, 0, 0);
+  background-image: linear-gradient(
+    to right top,
+    #13670b,
+    #10620b,
+    #0d5d0b,
+    #0a590b,
+    #07540b,
+    #07580c,
+    #075b0c,
+    #075f0d,
+    #0b6c0e,
+    #107a0f,
+    #168710,
+    #1c9510
+  );
   color: aliceblue;
   position: fixed;
   bottom: 0;
